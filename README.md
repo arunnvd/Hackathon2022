@@ -1,6 +1,10 @@
 # Hackathon2022
 Requires python modules:
-  1. open-cv 
-        pip install opencv-python
-  2. pyzbar : for decoding qrcode
-        pip install pyzbar
+  - open-cv : reading image
+       ```sh
+       pip install opencv-python
+       ```
+  - pyzbar : for decoding qrcode
+       ```sh
+       pip install pyzbar
+       ```
