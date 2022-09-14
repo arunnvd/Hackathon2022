@@ -2,6 +2,16 @@ import cv2
 from pyzbar.pyzbar import decode
 import json
 
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
+
+
+cred = credentials.Certificate("E:\Development\Python\Hackathon2022\medialliswell-firebase-adminsdk.json")
+firebase_admin.initialize_app(cred, {
+    'databaseURL' : 'https://medialliswell-default-rtdb.firebaseio.com/'
+})
+
 #img = cv2.imread('qrcode.png')
 
 cam = cv2.VideoCapture(0)
@@ -29,3 +39,6 @@ cv2.destroyAllWindows()
 
 tablet_dict = json.loads(barcode[0].data)
 print(tablet_dict['DOM'])
+
+ref = db.reference('/')
+ref.set(tablet_dict)
