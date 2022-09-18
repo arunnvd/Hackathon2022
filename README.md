@@ -8,3 +8,7 @@ Requires python modules:
        ```sh
        pip install pyzbar
        ```
+  - firebase_admin : for connecting python to firebase realtime database
+       ```sh
+       pip install firebase_admin
+       ```
