@@ -1,16 +1,19 @@
 {
     "id" : 123,
-    "dispName" : "DOLO 550",
-    "DOM" : "01-08-2022",
-    "DOE" : "01-01-2023",
-    "quantity": 20, 
-    "usage" : {
-        "freq": {},
-        "beforeFood" : false,
-        "period": {"val":1,"unit":"DAY"}
-    },
-    "prescription" : {
-        "doctor":{"id":"D_123","name" : "Dr.John", "specialization" : "General Medicine", "contact" : "09986954699"},
-        "pharma" : {"id":"P_123","name" : "Apollo pharma", "contact" : "09986954699"}
+    "test" : {
+        "dispName" : "DOLO 550",
+        "DOM" : "01-08-2022",
+        "DOE" : "01-01-2023",
+        "quantity": 20, 
+        "usage" : {
+            "freq": {},
+            "beforeFood" : false,
+            "period": {"val":1,"unit":"DAY"}
+        },
+        "prescription" : {
+            "doctor":{"id":"D_123","name" : "Dr.John", "specialization" : "General Medicine", "contact" : "09986954699"},
+            "pharma" : {"id":"P_123","name" : "Apollo pharma", "contact" : "09986954699"}
+        }
     }
+    
 }
