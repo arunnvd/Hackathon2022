@@ -1,19 +1,104 @@
 {
-    "id" : 123,
-    "test" : {
-        "dispName" : "DOLO 550",
-        "DOM" : "01-08-2022",
-        "DOE" : "01-01-2023",
-        "quantity": 20, 
-        "usage" : {
-            "freq": {},
-            "beforeFood" : false,
-            "period": {"val":1,"unit":"DAY"}
-        },
-        "prescription" : {
-            "doctor":{"id":"D_123","name" : "Dr.John", "specialization" : "General Medicine", "contact" : "09986954699"},
-            "pharma" : {"id":"P_123","name" : "Apollo pharma", "contact" : "09986954699"}
-        }
+    "id": "dolo650",
+    "details": {
+      "tabletName": "Dolo-650",
+      "quantity": 10,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2023-09-30T07:06:52.881Z"
     }
-    
 }
+
+            {
+                "id": "dolo650",
+                "details": {
+                "tabletName": "Dolo-650",
+                "quantity": 10,
+                "weight": 30.5003,
+                "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+                "dateOfExpiry": "2023-09-30T07:06:52.881Z"
+                }
+            }
+//--------------------------------------------------------------------------------------------//
+
+{
+    "id": "crocin650",
+    "details": {
+      "tabletName": "Crocin 650",
+      "quantity": 10,
+      "weight": 20,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2022-09-30T07:06:52.881Z"
+    }
+}
+
+//--------------------------------------------------------------------------------------------//
+
+{
+    "id": "lanolertablet",
+    "details": {
+      "tabletName": "Lanol ER Tablet",
+      "quantity": 10,
+      "weight": 20,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2022-12-30T07:06:52.881Z"
+    }
+}
+
+//--------------------------------------------------------------------------------------------//
+
+{
+    "id": "macfast650",
+    "details": {
+      "tabletName": "Macfast 650",
+      "quantity": 10,
+      "weight": 20,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2022-12-30T07:06:52.881Z"
+    }
+}
+
+{
+    "id": "elparcapsule",
+    "details": {
+      "tabletName": "Elpar Capsule",
+      "quantity": 10,
+      "weight": 20,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2023-1-30T07:06:52.881Z"
+    }
+}
+
+{
+    "id": "ibuprofen",
+    "details": {
+      "tabletName": "Ibuprofen Capsule",
+      "quantity": 15,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2025-05-30T07:06:52.881Z"
+    }
+}
+
+{
+    "id": "parcetamolNcaffine",
+    "details": {
+      "tabletName": "Paracetamol & Caffeine",
+      "quantity": 10,
+      "weight" : 11.056,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2022-09-30T07:06:52.881Z"
+    }
+}
+
+{
+    "id": "glyciphage500",
+    "details": {
+      "tabletName": "Glyciphage SR 500",
+      "quantity": 10,
+      "weight" : 11.09,
+      "dateOfManufacture": "2022-05-20T07:06:52.881Z",
+      "dateOfExpiry": "2022-01-30T07:06:52.881Z"
+    }
+}
+
+
+
